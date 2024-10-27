@@ -9,7 +9,7 @@ public class Program {
         IAgent player1 = new AlwaysRockAgent();
         IAgent player2 = new AlwaysPaperAgent();
 
-        int numberOfGames = 1000;
+        int numberOfGames = 500;
 
         while(numberOfGames > 0) {
             HandShape p1choice = player1.nextMove();
