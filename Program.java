@@ -9,8 +9,8 @@ public class Program {
     }
 
     public static void main(String[] args) {
-        IAgent player1 = new AlwaysScissorsAgent();
-        IAgent player2 = new AlwaysScissorsAgent();
+        IAgent player1 = new StrategyChangingAgent();
+        IAgent player2 = new AlwaysPaperAgent();
 
         int numberOfGames = 1000;
 
